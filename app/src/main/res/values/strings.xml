@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">YoutubePlayer</string>
+    <string name="title_activity_youtube">YoutubeActivity</string>
+    <string name="title_activity_standalone">StandaloneActivity</string>
+    <string name="title_activity_deleted">Deleted</string>
+</resources>

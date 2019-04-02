@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+    android:id="@+id/content_youtube"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_youtube">
+
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+    </com.google.android.youtube.player.YouTubePlayerView>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:text="No. of Likes"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/tvCounter1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="100dp"
+            android:text="No. of Dislikes"
+            android:textSize="30sp" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/like"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="LIKE"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/holo_blue_light"
+            />
+        <Button
+            android:id="@+id/dislike"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="120dp"
+
+            android:text="DISLIKE"
+            android:background="@android:color/holo_blue_light"
+            />
+</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+
